@@ -1,0 +1,50 @@
+.eng-title {
+  font-size: 28px;
+}
+@media (max-width: 767px) {
+  .header {
+    padding-top: 87px 0;
+    background-image: url(../img/hero-sm.png);
+  }
+  .eng-title {
+    font-size: 20px;
+  }
+}
+.intro-text {
+  border-radius: 12px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .intro-text {
+    text-align: left;
+  }
+}
+.section-line {
+  border-bottom: 1px solid $neutral-300;
+}
+.time-desc {
+  border-right: 1px solid $neutral-900;
+  margin-right: 8px;
+}
+.history-list {
+  list-style-type: disc;
+  padding-left: 24px;
+}
+.idea-item {
+  padding-left: 12px;
+  border-left: 3px solid $neutral-300;
+}
+.story-link {
+  border-bottom: 1px solid $primary-400;
+  text-underline-offset: 4px;
+}
+.story-color {
+  color: $primary-400;
+}
+.story-color:hover {
+  background-color: $primary-100;
+}
+.bi {
+  padding-right: 8px;
+  vertical-align: middle;
+}
